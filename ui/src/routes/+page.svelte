@@ -1,6 +1,8 @@
 <script>
     import Greet from '../lib/Greet.svelte'
-  </script>
-  
-  <h1>Welcome to SvelteKit</h1>
-  <Greet />
+</script>
+<div class="flex w-full">
+    <div class="grid h-20 flex-grow card bg-base-300 rounded-box place-items-center">
+        <Greet />
+    </div>
+  </div>
